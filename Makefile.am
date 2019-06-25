@@ -7,6 +7,6 @@ CFLAGS = -Wall -pedantic -O2
 #libbbexample_la_SOURCES  = bbexamplelib.c
 #libbbexample_la_LDFLAGS= -version-info 1:0:0
 
-bin_PROGRAMS = rgb2yuv_c
-rgb2yuv_c_SOURCES = rgb2yuv_c.c
+bin_PROGRAMS = rgb2yuv-c
+rgb2yuv_c_SOURCES = rgb2yuv-c.c
 #rgb2yuv_c_LDADD = libbbexample.la

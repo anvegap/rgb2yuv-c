@@ -2,10 +2,10 @@
 # Process this file with autoconf to produce a configure script.
 
 #AC_PREREQ(2.60)
-AC_INIT(rgb2yuv_c, 0.1, natisof18@hotmail.com)
-AC_CONFIG_SRCDIR([rgb2yuv_c.c])
+AC_INIT(rgb2yuv-c, 0.1, natisof18@hotmail.com)
+AC_CONFIG_SRCDIR([rgb2yuv-c.c])
 #AC_CONFIG_HEADER([config.h])
-AM_INIT_AUTOMAKE(rgb2yuv_c, main)
+AM_INIT_AUTOMAKE(rgb2yuv-c, main)
 
 # Checks for programs.
 AC_PROG_CC
